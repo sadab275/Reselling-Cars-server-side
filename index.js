@@ -136,12 +136,11 @@ async function run() {
             res.send(result);
 
         });
-        app.get('/allProducts/:Category_id', async (req, res) => {
-            const id = req.params.Category_id;
-            const query = { Category_id: (id) }
+        app.get('/allProducts/:category_id', async (req, res) => {
+            const id = req.params.category_id;
+            const query = { category_id: parseInt(id) }
             const options2 = await allProductsCollection.find(query);
             res.send(options2);
-            // {Category_id : (id)}eivabe diye deken
         });
 
     }
