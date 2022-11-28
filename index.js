@@ -55,7 +55,6 @@ async function run() {
         app.get('/allProducts/:email', async (req, res) => {
             const email = req.params?.email;
             console.log("pr er email", email);
-            // const query = { _id: ObjectId(id) };
             const query = { email: email };
             const service = await allProductsCollection.find(query).toArray();
             res.send(service);
@@ -73,7 +72,6 @@ async function run() {
         });
         app.post('/myOrders', async (req, res) => {
             const orders = req.body;
-            // console.log(orders);
             const result = await ordersCollection.insertOne(orders);
             res.send(result);
         });
