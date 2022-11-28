@@ -1,0 +1,74 @@
+[
+    {
+        "Category_id": 1,
+        "Brand_name": "Toyota",
+        "Seller_name": "Rafs",
+        "Location": "Dhaka",
+        "Original_Price": "150000",
+        "Resell_Price": "100000",
+        "Years_of_Use": "5",
+        "Posted_Time": "12.12.2022",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/0/01/Hyundai_Sonata_2.0_Turbo_LF_FL_black_diplomatic_%283%29_%28cropped%29.jpg",
+        "isVerified": "true"
+    },
+    {
+        "Category_id": 1,
+        "Brand_name": "Toyota",
+        "Seller_name": "Rafsan",
+        "Location": "Dhaka",
+        "Original_Price": "200000",
+        "Resell_Price": "150000",
+        "Years_of_Use": "5",
+        "Posted_Time": "12.12.2022",
+        "img": "https://static.tcimg.net/vehicles/primary/68605c4f2a147cf4/2023-Toyota-Camry-silver-full_color-driver_side_front_quarter.png",
+        "isVerified": "true"
+    },
+    {
+        "Category_id": 2,
+        "Brand_name": "Toyota",
+        "Seller_name": "Rafsan",
+        "Location": "Dhaka",
+        "Original_Price": "200000",
+        "Resell_Price": "150000",
+        "Years_of_Use": "5",
+        "Posted_Time": "12.12.2022",
+        "img": "https://www.jeep.com.bd/content/dam/cross-regional/asean/jeep/common/2022/news/jeep-electric-suv-1450x600.jpg.img.1440.jpg",
+        "isVerified": "true"
+    },
+    {
+        "Category_id": 2,
+        "Brand_name": "Toyota",
+        "Seller_name": "Rafsan",
+        "Location": "Dhaka",
+        "Original_Price": "200000",
+        "Resell_Price": "150000",
+        "Years_of_Use": "5",
+        "Posted_Time": "12.12.2022",
+        "img": "https://www.motortrend.com/uploads/sites/10/2022/02/2022-hyundai-kona-se-suv-angular-front.png?w=412",
+        "isVerified": "true"
+    },
+    {
+        "Category_id": 3,
+        "Brand_name": "Toyota",
+        "Seller_name": "Rafsan",
+        "Location": "Dhaka",
+        "Original_Price": "200000",
+        "Resell_Price": "150000",
+        "Years_of_Use": "5",
+        "Posted_Time": "12.12.2022",
+        "img": "https://www.wardsauto.com/sites/wardsauto.com/files/1967%20VW%20Microbus%20main%20art%20-%20Copy%202.jpg",
+        "isVerified": "true"
+    },
+    {
+        "Category_id": 3,
+        "Brand_name": "Toyota",
+        "Seller_name": "Rafsan",
+        "Location": "Dhaka",
+        "Original_Price": "200000",
+        "Resell_Price": "150000",
+        "Years_of_Use": "5",
+        "Posted_Time": "12.12.2022",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEv7zr9kqAtdcJQRuOjkbcMqG6L6Zau8qRjw&usqp=CAU",
+        "isVerified": "true"
+    }
+]
