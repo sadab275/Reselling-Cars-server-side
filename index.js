@@ -134,7 +134,12 @@ async function run() {
 
         });
 
-
+        app.get('/allProducts/:category_id', async (req, res) => {
+            const id = req.params.category_id;
+            const query = { category_id: parseInt(id) }
+            const options2 = await allProductsCollection.find(query);
+            res.send(options2);
+        });
 
     }
     finally {
