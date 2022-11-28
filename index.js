@@ -54,7 +54,7 @@ async function run() {
         });
         app.get('/allProducts/:email', async (req, res) => {
             const email = req.params?.email;
-            console.log(email);
+            console.log("pr er email", email);
             // const query = { _id: ObjectId(id) };
             const query = { email: email };
             const service = await allProductsCollection.find(query).toArray();
