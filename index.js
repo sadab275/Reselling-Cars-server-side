@@ -127,7 +127,12 @@ async function run() {
             const user = await usersCollection.findOne(query);
             res.send({ isBuyer: user?.type === 'Buyer' });
         })
+        app.post('/users', async (req, res) => {
+            const user = req.body;
+            const result = await usersCollection.insertOne(user);
+            res.send(result);
 
+        });
 
         app.get('/allProducts/:category_id', async (req, res) => {
             const id = req.params.category_id;
